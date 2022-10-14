@@ -9,7 +9,7 @@ void main() {
 
   var b = A<String, bool>();
   b.x = 'deish';
-  b.y = false as String;
+  b.y = false;
   b.info(b.x, b.y);
   print(b.x);
   print(b.y);
