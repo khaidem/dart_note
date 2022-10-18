@@ -1,8 +1,8 @@
-void main() {
-  final s1 = Stream.periodic(const Duration(milliseconds: 500), (a) => a);
-  var sub = s1.listen((_) => _);
-  sub.onData((data) {});
-}
+// void main() {
+//   final s1 = Stream.periodic(const Duration(milliseconds: 500), (a) => a);
+//   var sub = s1.listen((_) => _);
+//   sub.onData((data) {});
+// }
 
 //** without asyn & wait */
 // void main() {
